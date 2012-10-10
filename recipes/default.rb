@@ -13,6 +13,4 @@ dmg_package "Command Line Tools (Mountain Lion)" do
   dmg_name "Command Line Tools (Mountain Lion)"
   volumes_dir "Command Line Tools (Mountain Lion)"
   type "mpkg"
-
-  installed_resource "/usr/bin/gcc"
 end
