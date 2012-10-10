@@ -9,10 +9,9 @@
 
 dmg_package "Command Line Tools (Mountain Lion)" do
   source "https://dl.dropbox.com/u/211124/xcode451cltools_10_86938200a.dmg"
-  checksum "c640cf70063859c0d1af4bf592ecce57"
+  checksum "5c8044eea293fd6c3dbddcc8fab91b91b7a2cfb8cc90c0b095a865bba10c50c8"
   dmg_name "Command Line Tools (Mountain Lion)"
   volumes_dir "Command Line Tools (Mountain Lion)"
   type "mpkg"
-
-  not_if { ::File.exists?("/usr/bin/make") }
+  package_id "com.apple.pkg.DeveloperToolsCLI"
 end
