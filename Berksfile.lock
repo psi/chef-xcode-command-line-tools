@@ -1,1 +1,1 @@
-cookbook 'dmg', :path => '/Users/jd/src/cookbooks/dmg'
+cookbook 'dmg', :git => 'https://github.com/psi/dmg.git', :ref => '1db7310ea6bf2dcc7da46d3a12d45311b45d051b'

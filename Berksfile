@@ -1,1 +1,1 @@
-cookbook "dmg", "0.7.0", path: "~/src/cookbooks/dmg"
+cookbook "dmg", git: "https://github.com/psi/dmg.git"
