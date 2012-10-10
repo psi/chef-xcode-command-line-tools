@@ -14,5 +14,5 @@ dmg_package "Command Line Tools (Mountain Lion)" do
   volumes_dir "Command Line Tools (Mountain Lion)"
   type "mpkg"
 
-  installed { ::File.exists?("/usr/bin/make") }
+  not_if { ::File.exists?("/usr/bin/make") }
 end
