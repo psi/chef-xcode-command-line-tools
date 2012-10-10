@@ -1,0 +1,1 @@
+cookbook 'dmg', :path => '/Users/jd/src/cookbooks/dmg'
